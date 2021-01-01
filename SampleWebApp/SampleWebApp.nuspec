@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<!-- Identifier that must be unique within the hosting gallery -->
+		<id>SampleWebApp</id>
+
+		<!-- Package version number that is used when resolving dependencies -->
+		<version>0.0.1</version>
+
+		<!-- 
+            If true, this value prompts the user to accept the license when
+            installing the package. 
+        -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+		<!-- Any details about this particular release -->
+		<releaseNotes>Initial release</releaseNotes>
+
+		<!-- 
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. 
+        -->
+		<description>Sample web application</description>
+
+		<!-- Tags appear in the gallery and can be used for tag searches -->
+		<tags>Sample</tags>
+
+		<!-- Dependencies are automatically installed when the package is installed -->
+		<dependencies>
+			<dependency id="Newtonsoft.Json" version="9.0" />
+		</dependencies>
+	</metadata>
+</package>
