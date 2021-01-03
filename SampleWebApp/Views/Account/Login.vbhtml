@@ -10,7 +10,7 @@ End Code
             @Using Html.BeginForm("Login", "Account", New With { .ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, New With {.class = "form-horizontal", .role = "form"})
                 @Html.AntiForgeryToken()
                 @<text>
-                <h4>Use a local account to log in. This is change #1.</h4>
+                <h4>Use a local account to log in. This is change 2.</h4>
                 <hr />
                 @Html.ValidationSummary(True, "", New With {.class = "text-danger"})
                 <div class="form-group">
